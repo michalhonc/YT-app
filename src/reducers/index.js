@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import { searchBarReducer } from './searchBarDuck';
 
 const rootReducer = combineReducers({
-  state: '',
+  videos: searchBarReducer
 });
 
 export default rootReducer;
